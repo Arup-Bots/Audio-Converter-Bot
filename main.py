@@ -6,7 +6,6 @@ from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 #configs 
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
-FSUB_CHANNEL = int(os.environ.get("FSUB_CHANNEL", ""))
 
 #strings
 START_TEXT = """
@@ -15,6 +14,9 @@ Hey {}, I am Audio Converter Bot . I can help you to convert any video to audio 
 CONVERT_TEXT = """
 Send video message to convert to audio .
 """
+
+# fork and edit channel username
+FSUB_CHANNEL = DevelopedBots
 
 DevelopedBots = Client(
     "Audio-Converter-Bot",
