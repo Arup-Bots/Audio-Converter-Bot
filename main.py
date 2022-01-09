@@ -6,7 +6,7 @@ from pyrogram.errors import UserNotParticipant, UserBannedInChannel
 #configs 
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/")
 DOWNLOAD_LOCATION = os.environ.get("DOWNLOAD_LOCATION", "./DOWNLOADS/AudioBoT/")
-FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "DevelopedBots")
+FSUB_CHANNEL = os.environ.get("FSUB_CHANNEL", "")
 
 #strings
 START_TEXT = """
