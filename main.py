@@ -90,5 +90,5 @@ async def mp3(bot, message):
     
     await txt.delete()
 
-
+Print("Bot running....")
 DevelopedBots.run()
