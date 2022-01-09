@@ -16,7 +16,7 @@ Send video message to convert to audio .
 """
 
 # fork and edit channel username
-FSUB_CHANNEL = DevelopedBots
+FSUB_CHANNEL = "DevelopedBots"
 
 DevelopedBots = Client(
     "Audio-Converter-Bot",
