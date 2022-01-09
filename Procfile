@@ -1,1 +1,1 @@
-bughunter0: python3 main.py
+DevelopedBots: python3 main.py
