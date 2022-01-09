@@ -1,7 +1,7 @@
 {
-    "name": "Mp4-to-Mp3-Conveter",
+    "name": "Audio-Converter-Bot",
     "description": "A mp4 to mp3 converter telegram bot.",
-    "repository": "https://github.com/bughunter0/Mp4-to-Mp3-Conveter",
+    "repository": "https://github.com/Kunal-Diwan/Audio-Converter-Bot",
     "keywords": [
         "video to audio",
         "telegram bot",
