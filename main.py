@@ -15,9 +15,6 @@ CONVERT_TEXT = """
 Send video message to convert to audio .
 """
 
-# fork and edit channel username
-FSUB_CHANNEL = "DevelopedBots"
-
 DevelopedBots = Client(
     "Audio-Converter-Bot",
     bot_token = os.environ["BOT_TOKEN"],
@@ -27,7 +24,8 @@ DevelopedBots = Client(
 
 @DevelopedBots.on_message(filters.command(["start"]))
 async def text(bot, update):
-    FSUB_CHANNEL = FSUB_CHANNEL
+# fork and edit force channel
+    FSUB_CHANNEL = "DevelopedBots"
     if FSUB_CHANNEL:
         try:
             user = await bot.get_chat_member(FSUB_CHANNEL, update.chat.id)
